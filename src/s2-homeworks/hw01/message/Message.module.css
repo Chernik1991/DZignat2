@@ -24,7 +24,7 @@
     width: 470px;
     color: #DDEEFF;
     background-color: #0289f7;
-    border-radius: 10px 10px 0px 10px;
+    border-radius: 10px 10px 0 10px;
 }
 
 .text:after {

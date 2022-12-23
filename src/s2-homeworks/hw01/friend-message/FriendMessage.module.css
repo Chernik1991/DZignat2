@@ -3,31 +3,55 @@
 }
 
 .friendImageAndText {
-
+    display: inline-flex;
+    align-items: flex-end;
 }
 
 .friendImageAndText img {
+    margin-right: 10px;
     width: 50px;
     height: 50px;
     border-radius: 50%;
 }
 
 .friendText {
-
+    align-items: flex-end;
+    /*margin: 10px;*/
+    position: relative;
+    height: 65px;
+    width: 500px;
+    background-color: rgba(2, 137, 247, 0.3);
+    border-radius: 10px 10px 10px 0px;
 }
 
 .friendText:after {
-
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 100%;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: radial-gradient(60px at top left, transparent 51%, #0289F74C 53%) no-repeat right bottom;
 }
 
 .friendName {
-
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
 }
 
 .friendMessageText {
-
+    margin-left: 10px;
+    min-width: 150px;
+    max-width: 300px;
+    word-wrap: break-word;
 }
 
 .friendTime {
+    margin-left: 5px;
+    display: flex;
+    color: black;
 
 }
